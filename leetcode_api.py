@@ -147,6 +147,7 @@ class LeetCodeAPI:
         logging.warn("question is None")
         logging.warn(f"{frontend_question_id = }")
         logging.warn(f"{slug = }")
+        continue
 
       # Temporary solve LeetCode API inconsistency
       if slug == "bulb-switcher-iv":
